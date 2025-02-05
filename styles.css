@@ -44,10 +44,32 @@ body {
   gap: 1rem;
 }
 
-.icons img {
-  width: 40px; /* Adjust size if needed */
-  height: 40px;
-  border-radius: 5px; /* Add rounded corners if needed */
+.icon {
+  width: 40px; /* Icon width */
+  height: 40px; /* Icon height */
+  background-image: url("C:/Users/Ahmadi/My Stuffs/WebSite Data/pic.png");
+  background-size: 200px 40px; /* Adjust based on your sprite image dimensions */
+  background-repeat: no-repeat;
+}
+
+.icon1 {
+  background-position: 0 0; /* Position of the first icon */
+}
+
+.icon2 {
+  background-position: -40px 0; /* Second icon (adjust -40px based on icon width) */
+}
+
+.icon3 {
+  background-position: -80px 0; /* Third icon */
+}
+
+.icon4 {
+  background-position: -120px 0; /* Fourth icon */
+}
+
+.icon5 {
+  background-position: -160px 0; /* Fifth icon */
 }
 
 .footer {
