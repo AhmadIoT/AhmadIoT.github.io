@@ -47,6 +47,7 @@ body {
 .icons img {
   width: 40px; /* Adjust size if needed */
   height: 40px;
+  border-radius: 5px; /* Add rounded corners if needed */
 }
 
 .footer {
